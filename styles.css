@@ -1,0 +1,51 @@
+body {
+   background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+ 
+}
+
+.list {
+  margin-top: 50px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  align-items: center;
+  padding-left: 0;
+}
+
+.listItem {
+  background: rgba(42,50,113, .28);
+  width: 300px;
+  padding: 20px 5px;
+  font-size: 25px;
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.listItem:hover {
+  background: rgba(42,50,113, .5);
+}
+
+input {
+  font-size: 25px;
+  width: 500px;
+  background: rgba(42,50,113, .28);
+  border:none;
+  border-radius: 5px;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 15px;
+}
+
+input:hover {
+  background: rgba(42,50,113, .5);  
+}
